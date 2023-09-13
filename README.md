@@ -17,6 +17,7 @@ CMD [ "node", "index.js"]
     Executes node index.js
 ````
 # Build image and Run container
+Case 1
 ````
     $ docker build -t docker-express-app .
 		-t docker-express-app: the name for the image along with its tag, here, we leave the tag to be default (latest). (-t option is used to specify a name and a tag for the image to be built)
@@ -43,6 +44,8 @@ CMD [ "node", "index.js"]
 	$ docker rm comtainerID
 	$ docker rmi imageID
 ````
+Case 2
+    $ docker-compose up
 # Testing
     http://localhost:4000/
 
