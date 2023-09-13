@@ -1,0 +1,23 @@
+{
+  "name": "DockerExpressNodejs",
+  "version": "1.0.0",
+  "description": "A demo for using docker to deploy NodeJS Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangTienHoa/DockerExpressNodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangTienHoa/DockerExpressNodejs/issues"
+  },
+  "homepage": "https://github.com/HoangTienHoa/DockerExpressNodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
