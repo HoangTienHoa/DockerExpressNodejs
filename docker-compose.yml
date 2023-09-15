@@ -1,8 +1,8 @@
 version: '1.0'
 services:
   app:
+    container_name: docker_container_name
+    restart: always
     build: .
     ports:
-      - '4000:4000'
-    environment:
-      - PORT=4000
+      - 4000:4000
